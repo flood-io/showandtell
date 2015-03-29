@@ -1,0 +1,3 @@
+## What is Flood?
+
+> Distributed, loosely coupled, shared nothing load test platform ...
