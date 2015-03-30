@@ -4,27 +4,37 @@
 
 Install `prez`
 
-  $ npm install -g prez
+```
+  npm install -g prez
+```
 
 ### Presentations
 
 To make a new presentation
 
-  $ mkdir mypresentation
-  $ cd mypresentation
-  $ prez --init
+```
+  mkdir mypresentation
+  cd mypresentation
+  prez --init
+```
 
 To build an existing presentation
 
-  $ make build deck=mypresentation
+```
+  make build deck=mypresentation
+```
 
 To view an existing presentation
 
-  $ make local deck=mypresentation
+```
+  make local deck=mypresentation
+```
 
 To publish an existing presentation on Github Pages
 
-  $ make live deck=mypresentation
+```
+  make live deck=mypresentation
+```
 
 Note: this will replace the running presentation at:
 
