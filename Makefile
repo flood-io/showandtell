@@ -8,6 +8,5 @@ local: build
 	open index.html
 
 live: build
-	git commit -am "pushing changes"
-	git push origin gh-pages
+	git diff --quiet HEAD && echo "Please commit your changes to branch gh-pages"
 	open https://flood-io.github.io/showandtell
