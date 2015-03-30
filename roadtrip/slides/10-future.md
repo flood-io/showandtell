@@ -1,7 +1,7 @@
 ## Future
 
-- more integrations
-- more analytics
-- a new UI
+- More integrations
+- More analytics
+- Improved UI
 
 ![](http://i.imgur.com/0KAPYKs.gif)
