@@ -1,13 +1,13 @@
-deck=roadtrip
-export deck
+slides=roadtrip
+export slides
 
-prez:
-	prez ${deck} ./ --title="Flood IO" --theme=league
+build:
+	prez ${slides} ./ --title="Flood IO" --theme=league
 
-local: prez
+local: build
 	open index.html
 
-live: prez
+live: build
 	git commit -am "pushing changes"
 	git push origin gh-pages
 	open https://flood-io.github.io/showandtell
