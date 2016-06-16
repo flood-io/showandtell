@@ -4,4 +4,4 @@ $background:images/wave-large.jpg$
 
 ## Flood IO
 
-Load Testing for Everyone
+Smooth Scaling
