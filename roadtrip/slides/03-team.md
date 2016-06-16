@@ -4,4 +4,4 @@ $background:images/cloud.png$
 
 By a very small but efficient team ..
 
-![](https://s3.amazonaws.com/flood-io-support/Intercom_2015-03-30_09-47-17.jpg)
+![](https://s3.amazonaws.com/flood-io-support/Untitled_2016-06-16_18-57-19.png)
