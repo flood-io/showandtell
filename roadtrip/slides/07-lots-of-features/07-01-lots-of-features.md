@@ -7,4 +7,4 @@
 - Host Your Own Grids
 - Elastic IP and Virtual Private Clouds
 - Network Emulation
-- Custom Binaries
+- Custom Binaries (run your own supporting libraries)
