@@ -210,8 +210,8 @@
 <section id="sequence-diagram" class="slide" data-background="images/sequence_diagram.jpg">
 
 </section>
-<section id="charles" class="slide" data-background="images/charles.png">
-
+<section id="charles" class="slide">
+<h2>Charles Proxy</h2><p><img src="images/charles.png" alt=""></p>
 </section>
 <section id="jmeter-eyes" class="slide" data-background="images/jmeter-eyes.jpg">
 
@@ -220,37 +220,7 @@
 
 </section>
 <section id="ruby-jmeter" class="slide">
-<h2>Ruby-JMeter</h2><pre><code class="ruby">
-require 'ruby-jmeter'
-
-test do
-  defaults  domain: 'flooded.io', port: 443, protocol: 'https'
-
-  with_user_agent :iphone
-
-  header [
-    { name: 'Accept', value: 'application/json' }
-  ]
-
-  threads count: 100 do
-
-    random_timer 100, 200
-
-    get name: 'entry point', url: '/v2', sample: 10 do
-      assert json: '.status', value: 'OK'
-    end
-
-    post name: 'create session', url: '/v2/oauth', sample: 10,
-      fill_in: {
-        username: 'Michel Rosen',
-        password: 4141414141
-      } do
-        extract json: '.access_token', name: 'access_token'
-      with_xhr
-    end
-  end
-end.jmx
-</code></pre>
+<h2>Ruby-JMeter</h2><p><img src="images/ruby-jmeter.png" alt=""></p>
 </section>
 <section id="demo-code" class="slide">
 <h2>Demo Code</h2><p><a href="https://github.com/flood-io/loadtest">https://github.com/flood-io/loadtest</a></p>
@@ -286,6 +256,37 @@ end.jmx
 └── tests
     └── load.rb
   </code></pre>
+</section>
+<section id="preparation-script" class="slide" data-background="images/prepare-script.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
+<h2>Preparation</h2><p>☑️ Model</p>
+<p>☑️ Script</p>
+<p>🗳 Monitors</p>
+</section>
+<section id="compliment" class="slide">
+<p><img src="images/howard_chorney.png" alt="">
+<a href="http://perfbytes.com/extending-your-tool">perfbytes.com/extending-your-tool</a></p>
+</section>
+<section id="ecosystem" class="slide" data-background="images/ecosystem.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
+<blockquote>
+<p>&quot;Application Performance Management is a vast ecosystem&quot;</p>
+</blockquote>
+</section>
+<section id="flood-datadog" class="slide" data-background="images/flood-datadog.png">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
+<p><a href="http://bit.do/flood_datadog">bit.do/flood_datadog</a>
+<img src="images/dd-dashboard.png" alt=""></p>
+</section>
+<section id="cooking-with-snags" class="slide" data-background="images/cooking-with-snags.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.4); color: #fff; padding: 50px;">
+
+<h2>Preparation</h2><p>☑️ Model</p>
+<p>☑️ Script</p>
+<p>☑️ Monitors</p>
 </section></div>
     </div>
 
