@@ -38,169 +38,132 @@
     <div class="reveal">
       <div class="slides"><section id="hello" class="slide" data-background="images/wave-large.jpg">
 <p><img src="images/flood-icon-white.png" alt=""></p>
-<h2>Flood IO</h2><p>Smooth Scaling</p>
 </section>
-<section>
-<section id="what-is-flood-what-is-flood" class="slide">
-<h2>What is Flood?</h2><blockquote>
-<p>Distributed, Loosely Coupled, Shared Nothing Load Test Platform ..</p>
+<section id="it-scales" class="slide">
+<blockquote>
+<p>Distributed, Loosely Coupled, Shared Nothing Load Test Platform</p>
 </blockquote>
+<p>(it scales)</p><aside class="notes"><p>A distributed system in which components located on networked computers communicate and coordinate their actions by passing messages to each other where each of its components has, or makes use of, little or no knowledge of the definitions of other separate components in a distributed computing architecture in which each node is independent and self-sufficient, and there is no single point of contention across the system.</p></aside>
+</section>
+<section id="it-scales-because" class="slide">
+<blockquote>
+<p>It scales because</p>
+</blockquote>
+<p><img src="images/it-scales-because.png" alt=""></p><aside class="notes"><p>Take a single node on EC2, typically an m4.xlarge with 15GB RAM and 4 VCPUs and we then tune the crap out of the related tools which are mostly JVMs inside docker containers running popular open source tools like JMeter, Gatling and Selenium.</p></aside>
+</section>
+<section id="jon-snow-nodes" class="slide">
 <p><img src="images/load-test-tools.png" alt=""></p>
+<p><img src="images/jon-snow.gif" alt=""></p>
 </section>
-<section id="what-is-flood-distributed" class="slide">
-<h2>Distributed</h2><blockquote>
-<p>A distributed system is a software system in which components located on networked computers communicate and coordinate their actions by passing messages. The components interact with each other in order to achieve a common goal.</p>
-</blockquote>
+<section id="grid-nodes" class="slide">
+<p><img src="images/grid-nodes.png" alt=""></p>
 </section>
-<section id="what-is-flood-loosely-coupled" class="slide">
-<h2>Loosely Coupled</h2><blockquote>
-<p>A loosely coupled system is one in which each of its components has, or makes use of, little or no knowledge of the definitions of other separate components.</p>
-</blockquote>
+<section id="upload-test-files" class="slide">
+<p><img src="images/upload-test-files.png" alt=""></p>
 </section>
-<section id="what-is-flood-shared-nothing" class="slide">
-<h2>Shared Nothing</h2><blockquote>
-<p>A shared nothing architecture (SN) is a distributed computing architecture in which each node is independent and self-sufficient, and there is no single point of contention across the system. More specifically, none of the nodes share memory or disk storage.</p>
-</blockquote>
+<section id="select-grids" class="slide">
+<p><img src="images/select-grids.png" alt=""></p>
 </section>
-</section>
-<section id="team" class="slide" data-background="images/cloud.png">
-<h2>Runs on the cloud</h2><p>By a very small but efficient team ..</p>
-<p><img src="https://s3.amazonaws.com/flood-io-support/Untitled_2016-06-16_18-57-19.png" alt=""></p>
-<ul>
-<li><a href="https://au.linkedin.com/in/timkoopmans">Tim Koopmans</a> CTO</li>
-<li><a href="https://au.linkedin.com/in/mikellindsaar">Mikel Lindsaar</a> CEO</li>
-<li><a href="https://au.linkedin.com/in/ivanvanderbyl">Ivan Vanderbyl</a> Product Engineering</li>
-<li><a href="https://www.linkedin.com/in/sophisticado">Jarrett Green</a> Business Development</li>
-</ul>
-</section>
-<section>
-<section id="saves-you-time-saves-you-time" class="slide">
-<h2>Flood IO Saves You</h2><p>Time</p>
-<p><img src="images/saves-time.png" alt=""></p>
-</section>
-<section id="saves-you-time-managing-grids" class="slide">
-<h2>Managing Grids</h2><blockquote>
-<p>Spin up your own grid of load generation nodes across multiple world regions in minutes.</p>
-</blockquote>
-<p><img src="images/managing-grids.png" alt=""></p>
-</section>
-<section id="saves-you-time-launching-floods" class="slide">
-<h2>Launching Floods</h2><blockquote>
-<p>Launch floods with your favourite open source tool including JMeter, Gatling and Selenium across the world.</p>
-</blockquote>
-<p><img src="images/launch-floods.png" alt=""></p>
-</section>
-<section id="saves-you-time-analyze-results" class="slide">
-<h2>Analyze Results</h2><blockquote>
-<p>Analyze your floods in real time and share with your colleagues.</p>
-</blockquote>
-<p><img src="images/monitor-floods.gif" alt=""></p>
-</section>
-</section>
-<section>
-<section id="saves-you-money-saves-you-money" class="slide">
-<h2>Flood IO saves you</h2><p>💰Money💰</p>
-<p><img src="https://s3.amazonaws.com/flood-io-support/Pricing__Flood_IO_2016-07-12_10-21-19.png" alt=""></p>
-</section>
-<section id="saves-you-money-pay-for-what-you-use" class="slide">
-<h2>Pay For What You Use</h2><blockquote>
-<p><a href="https://smoothscaling.io/paying-per-test-or-virtual-user-is-broken-7d10cb546672#.emxikvaz2">Paying per test or per virtual user is broken.</a></p>
-</blockquote>
-<p>You only <em>pay for the infrastructure you use</em>, not <em>how you use it</em>.</p>
-<p>Our plans let you run <em>as many concurrent users</em> as you need, <em>as often</em> as you wish, for <em>as long</em> as you like.</p>
-</section>
-<section id="saves-you-money-dont-skimp-on-hardware" class="slide">
-<h2>We Don&#39;t Skimp On Hardware</h2><blockquote>
-<p>We give you more CPU and RAM than any of our competitors.</p>
-</blockquote>
-<p>Our base node has 4 VCPU and 16 GB of RAM which is perfectly tuned for running protocol level tests with JMeter or Gatling.</p>
-<p>We also support up to 36 VCPU and 60 GB of RAM for browser level tests with Selenium.</p>
-</section>
-</section>
-<section>
-<section id="saves-you-effort-saves-you-effort" class="slide">
-<h2>Flood IO saves you</h2><p>😅 Effort 😅</p>
-<p><img src="https://cdn-images-1.medium.com/max/1200/1*t90JlrZju__3IU71K6gPLA.jpeg" alt=""></p>
-</section>
-<section id="saves-you-effort-building-your-own" class="slide">
-<h2>If You Built Your Own</h2><p>To make a distributed load test platform you&#39;d need to:</p>
-<ul>
-<li>pick a suitable cloud provider</li>
-<li>provision hardware or resources to suit</li>
-<li>automate deployment of software</li>
-<li>distribute tests to multiple machines</li>
-<li>aggregate results in real time</li>
-<li>build a time series database for long term storage</li>
-<li>script a test control and monitoring system</li>
-<li>tune OS and JVMs to meet your test requirements</li>
-</ul>
-<p>Do all this and you have the beginnings of Flood IO...</p>
-<p>Three years ago ...</p>
-</section>
-<section id="saves-you-effort-tool-agnostic" class="slide">
-<h2>Tool Agnostic</h2><blockquote>
-<p>We built a system that&#39;s tool agnostic.</p>
-</blockquote>
-<p>Today we choose open source tools such as JMeter, Gatling and Selenium. Tomorrow we can choose another. We&#39;re always on the lookout for the best of breed tools.</p>
-<p>We don&#39;t mind which tool is the best. We focus instead on building a real time reporting system with 15 second granularity on top.</p>
-</section>
-<section id="saves-you-effort-benefit-from-experience" class="slide">
-<h2>Benefit from our experience</h2><blockquote>
-<p>We&#39;ve run thousands of tests and simulated millions of users on behalf of our customers.</p>
-</blockquote>
-<p>Benefit from our experience in running distributed systems at scale. Learn how to design and execute your tests.</p>
-<p>Shortcut your load testing experience.</p>
-</section>
-</section>
-<section>
-<section id="lots-of-features-lots-of-features" class="slide">
-<h2>Lots of features</h2><p>😍 That you&#39;d actually use 😍</p>
-<ul>
-<li>RESTful API</li>
-<li>Transaction Traces</li>
-<li>Host Your Own Grids</li>
-<li>Elastic IP and Virtual Private Clouds</li>
-<li>Network Emulation</li>
-<li>Custom Binaries (run your own supporting libraries)</li>
-</ul>
-</section>
-<section id="lots-of-features-restful-api" class="slide">
-<h2>RESTful API</h2><blockquote>
-<p>Anything you can do in our UI is programmable via our API.</p>
-</blockquote>
-<p>Our customers build their own dashboards and continuous integration pipelines from our simple to use API.</p>
-<p><img src="images/restful-api.png" alt=""></p>
-</section>
-<section id="lots-of-features-transaction-traces" class="slide">
-<h2>Transaction Traces</h2><blockquote>
-<p>Find out what failed when</p>
-</blockquote>
-<p>Our distributed reporting system will capture samples of request and response headers, including response bodies of failed requests.</p>
-<p><img src="images/traces.png" alt=""></p>
-</section>
-<section id="lots-of-features-host-your-own" class="slide">
-<h2>Host Your Own Grids</h2><p>Our hosted plan lets you host grid nodes on your own AWS account. This means you pay only cost price for any instance size you prefer. You can also benefit from spot pricing, VPC and Elastic IP support.</p>
-<p><img src="images/host-your-own.png" alt=""></p>
-</section>
-<section id="lots-of-features-elastic-ip-support" class="slide">
-<h2>Elastic IP support</h2><p>Elastic IP gives you more control of the IP addresses associated with your grid nodes. Using this feature you can help drill holes through your corporate firewalls.</p>
-<p><img src="images/elastic-ip.png" alt=""></p>
-</section>
-<section id="lots-of-features-vpc-support" class="slide">
-<h2>Virtual Private Cloud Support</h2><p>VPC support gives you the ability to spin up grid nodes in your own private subnet which is isolated from the public internet. This offers greater access control and security for your grids.</p>
-<p><img src="images/vpc.png" alt=""></p>
-</section>
-</section>
-<section id="future" class="slide">
-<h2>Future</h2><ul>
-<li>On premise install, Q3 2016</li>
-<li>More integrations</li>
-<li>Better analytics</li>
-</ul>
-<p><img src="https://s3.amazonaws.com/flood-io-support/Your_Floods_-_Timeline_-_Flood_IO_2016-06-16_21-31-19.png" alt=""></p>
-</section>
-<section id="demo-and-questions" class="slide" data-background="images/screaming_flood_io.jpg">
+<section id="results-real-time" class="slide" data-background="images/results-real-time.png">
 
+</section>
+<section id="marketing" class="slide" data-background="images/marketing.jpg">
+
+</section>
+<section id="irl" class="slide" data-background="images/irl.gif">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
+
+<ul>
+<li>Tim Koopmans</li>
+<li>CTO / Founder <a href="https://flood/io">Flood IO</a></li>
+<li>Cow Farmer</li>
+<li>Child Wrangler</li>
+<li>Know a few things about load testing</li>
+</ul>
+</section>
+<section id="how-to-scale" class="slide" data-background="images/screaming_flood_io.jpg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;"><h2 style="color:white">How to scale from zero to one million requests per second</h2></div>
+</section>
+<section id="one-million-dollars" class="slide" data-background="images/one-million-dollars.gif">
+
+</section>
+<section id="c10k-problem" class="slide" data-background="images/1999.jpg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.3); color: #fff; padding: 50px;">
+
+<h2>C10K theoretical problem</h2><blockquote>
+<p>&quot;It&#39;s time for web servers to handle ten thousand clients simultaneously, don&#39;t you think? After all, the web is a big place now.&quot;</p>
+</blockquote>
+</section>
+<section id="c10m-problem" class="slide">
+<h2>C10M theoretical problem</h2><ol>
+<li><p>10 million concurrent connections</p>
+</li>
+<li><p>1 million connections/second</p>
+</li>
+<li><p>10 gigabits/second connection</p>
+</li>
+</ol>
+<p><a href="http://highscalability.com/blog/2013/5/13/the-secret-to-10-million-concurrent-connections-the-kernel-i.html">...</a></p>
+</section>
+<section id="why" class="slide" data-background="images/bums-on-seats.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
+<h2>Tip: Ask Why?</h2><blockquote>
+<p>&quot;A good simulation model is worth a thousand tests&quot;</p>
+</blockquote>
+</section>
+<section id="google-analytics" class="slide" data-background="images/google-analytics.png">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
+<blockquote>
+<p>&quot;Last night we had 180K uniques doing something in the order of 500K requests per minute BUT the business wants us to test up to 1M requests per second for the next sale&quot;</p>
+</blockquote>
+</section>
+<section id="concurrency-1" class="slide" data-background="images/crowd.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
+<h2>Estimating concurrency</h2><p>We can estimate with uniques and session duration</p>
+<pre>
+
+           180,000 uniques
+           ---------------        = 15,000 concurrent users
+      ( 60 minutes / 5 minutes)
+
+</pre>
+</section>
+<section id="concurrency-2" class="slide">
+<h2>Tip: They don&#39;t exist</h2><blockquote>
+<p>&quot;uniform hourly distributions&quot;</p>
+</blockquote>
+<p><img src="images/poisson.jpg" alt=""></p>
+</section>
+<section id="throughput-1" class="slide" data-background="images/throughput.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
+<h2>Estimating throughput</h2><p>We also need to estimate throughput 😳</p>
+<pre>
+
+   500,000 requests per minute
+   ---------------------------  = 33 rpm per user
+        15,000 users
+
+</pre>
+</section>
+<section id="throughput-2" class="slide" data-background="images/turbo.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
+<h2>Estimating throughput</h2><p>We can start to validate business targets of 1M rps 😲</p>
+<pre>
+  60,000,000 requests per minute
+  ------------------------------  = 4,000 rpm per user
+        15,000 users
+
+            OR maybe ...
+
+  60,000,000 requests per minute
+  ------------------------------  = 1.8M concurrent users
+        33 rpm per user
+</pre>
 </section></div>
     </div>
 
