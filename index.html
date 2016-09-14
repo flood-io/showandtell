@@ -147,7 +147,9 @@
         33 rpm per user
 </pre>
 </section>
-<section id="preparation-model" class="slide">
+<section id="preparation-model" class="slide" data-background="images/prepare.jpg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
 <h2>Preparation</h2><p>☑️ Model</p>
 <p>🗳 Script</p>
 <p>🗳 Monitors</p>
@@ -196,6 +198,41 @@ test do
   end
 end.jmx
 </code></pre>
+</section>
+<section id="demo-code" class="slide">
+<h2>Demo Code</h2><p><a href="https://github.com/flood-io/loadtest">https://github.com/flood-io/loadtest</a></p>
+<pre><code>
+├── Dockerfile
+├── Makefile
+├── README.md
+├── config
+│   ├── default.vcl
+│   ├── limits.conf
+│   ├── nginx.conf
+│   ├── supervisord.conf
+│   └── sysctl.conf
+├── docs
+│   ├── demo_requests.chls
+├── scripts
+│   └── jenkins.sh
+├── terraform
+│   ├── api
+│   │   ├── main.tf
+│   │   ├── terraform.tfstate
+│   │   └── terraform.tfstate.backup
+│   ├── asg
+│   │   ├── cloudconfig.yml
+│   │   ├── main.tf
+│   │   ├── terraform.tfstate
+│   │   └── terraform.tfstate.backup
+│   └── elb
+│       ├── main.tf
+│       ├── terraform.tfstate
+│       └── terraform.tfstate.backup
+├── terraform.tfvars
+└── tests
+    └── load.rb
+  </code></pre>
 </section></div>
     </div>
 
