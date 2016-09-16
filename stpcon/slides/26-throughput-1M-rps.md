@@ -9,7 +9,7 @@ We can start to validate business targets of 1M rps 😲
 <pre>
   60,000,000 requests per minute
   ------------------------------  = 4,000 rpm per user
-        15,000 users
+          15,000 users
 
             OR maybe ...
 

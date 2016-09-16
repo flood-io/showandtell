@@ -1,0 +1,1 @@
+![](images/measure-model-decide-build.png)

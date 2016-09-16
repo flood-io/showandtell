@@ -1,1 +1,0 @@
-![](images/grid-nodes.png)
