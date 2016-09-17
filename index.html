@@ -49,12 +49,20 @@
 
 <h2>Expectation</h2>
 </section>
-<section id="reality" class="slide" data-background="images/irl.gif">
+<section>
+<section id="reality-reality" class="slide" data-background="images/irl.gif">
 <div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
 
 <h2>Reality</h2><p>@tim_koopmans</p>
 <p>CTO / Founder <a href="https://flood/io">Flood IO</a></p>
 <p>Cow Farmer, Child Wrangler &amp; Recovering Load Tester</p>
+</section>
+<section id="reality-users" class="slide" data-background="images/support-users.png">
+
+</section>
+<section id="reality-tickets-by-day" class="slide">
+<p><img src="images/support-by-day.png" alt=""></p>
+</section>
 </section>
 <section id="how-to-scale" class="slide" data-background="images/screaming_flood_io.jpg">
 <div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
@@ -241,36 +249,16 @@
 <p><a href="http://bit.do/flood_datadog">bit.do/flood_datadog</a>
 <img src="images/dd-dashboard.png" alt=""></p>
 </section>
-<section>
-<section id="draft-charles" class="slide">
-<h2>Charles Proxy</h2><p><img src="images/charles.png" alt=""></p>
+<section id="architecture" class="slide" data-background="images/architecture.png">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+
+<h2>Production API</h2>
 </section>
-<section id="draft-chart-1" class="slide">
-<p><img src="images/chart-1.png" alt=""></p>
+<section id="sequence-diagram" class="slide" data-background="images/sequence_diagram.jpg">
+
 </section>
-<section id="draft-chart-2" class="slide">
-<p><img src="images/chart-2.png" alt=""></p>
-</section>
-<section id="draft-chart-3" class="slide">
-<p><img src="images/chart-3.png" alt=""></p>
-</section>
-<section id="draft-chart-4" class="slide">
-<p><img src="images/chart-4.png" alt=""></p>
-</section>
-<section id="draft-chart-5" class="slide">
-<p><img src="images/chart-5.png" alt=""></p>
-</section>
-<section id="draft-chart-6" class="slide">
-<p><img src="images/chart-6.png" alt=""></p>
-</section>
-<section id="draft-chart-7" class="slide">
-<p><img src="images/chart-7.png" alt=""></p>
-</section>
-<section id="draft-chart-8" class="slide">
-<p><img src="images/chart-8.png" alt=""></p>
-</section>
-<section id="draft-demo-code" class="slide">
-<h2>Demo Code</h2><p><a href="https://github.com/flood-io/loadtest">https://github.com/flood-io/loadtest</a></p>
+<section id="demo-code" class="slide">
+<h2>Build (Code!)</h2><p><a href="https://github.com/flood-io/loadtest">https://github.com/flood-io/loadtest</a></p>
 <pre><code>
 ├── Dockerfile
 ├── Makefile
@@ -288,73 +276,82 @@
 ├── terraform
 │   ├── api
 │   │   ├── main.tf
-│   │   ├── terraform.tfstate
-│   │   └── terraform.tfstate.backup
 │   ├── asg
 │   │   ├── cloudconfig.yml
 │   │   ├── main.tf
-│   │   ├── terraform.tfstate
-│   │   └── terraform.tfstate.backup
 │   └── elb
 │       ├── main.tf
-│       ├── terraform.tfstate
-│       └── terraform.tfstate.backup
 ├── terraform.tfvars
 └── tests
     └── load.rb
   </code></pre>
 </section>
-<section id="draft-jmeter-eyes" class="slide" data-background="images/jmeter-eyes.jpg">
+<section id="jmeter-eyes" class="slide" data-background="images/jmeter-eyes.jpg">
 
 </section>
-<section id="draft-jmeter-ui" class="slide" data-background="images/jmeter-ui.png">
+<section id="jmeter-ui" class="slide" data-background="images/jmeter-ui.png">
 
 </section>
-<section id="draft-preparation-monitors" class="slide" data-background="images/cooking-with-snags.jpeg">
-<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.4); color: #fff; padding: 50px;">
-
-<h2>Preparation</h2><p>☑️ Model</p>
-<p>☑️ Script</p>
-<p>☑️ Monitors</p>
-</section>
-<section id="draft-preparation-script" class="slide" data-background="images/prepare-script.jpeg">
+<section id="version-tests" class="slide" data-background="images/code.jpeg">
 <div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
 
-<h2>Preparation</h2><p>☑️ Model</p>
-<p>☑️ Script</p>
-<p>🗳 Monitors</p>
+<h2>Version Tests</h2><p>&quot;Treat your tests as any other code&quot;</p>
 </section>
-<section id="draft-results-real-time" class="slide" data-background="images/results-real-time.png">
+<section id="ruby-jmeter" class="slide">
+<h2>Ruby-JMeter</h2><p><a href="https://github.com/flood-io/ruby-jmeter">github.com/flood-io/ruby-jmeter</a></p>
+<p><img src="images/ruby-jmeter.png" alt=""></p>
+</section>
+<section id="charles-proxy" class="slide">
+<h2>Charles Proxy</h2><p><img src="images/charles.png" alt=""></p>
+</section>
+<section id="prepared" class="slide" data-background="images/cooking-with-snags.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
 
+<h2>Ready Set Test</h2><p>Model, Measure, Build ... Decide</p>
 </section>
-<section id="draft-ruby-jmeter" class="slide">
-<h2>Ruby-JMeter</h2><p><img src="images/ruby-jmeter.png" alt=""></p>
-</section>
-<section id="draft-select-grids" class="slide">
-<p><img src="images/select-grids.png" alt=""></p>
-</section>
-<section id="draft-sequence-diagram" class="slide" data-background="images/sequence_diagram.jpg">
+<section id="dive-deep" class="slide" data-background="images/mineshaft.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
 
+<h2>Go Deep</h2><p>&quot;Canary in the mine&quot;</p>
 </section>
-<section id="draft-support-example" class="slide">
-<p><img src="images/support-example.png" alt=""></p>
-</section>
-<section id="draft-support-users" class="slide" data-background="images/support-users.png">
+<section id="tuning" class="slide" data-background="images/tuning.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
 
+<h2>Tuning Tips</h2><ul>
+<li>Bracketing</li>
+<li>Targeting</li>
+<li>Moving (Bottlenecks)</li>
+</ul>
 </section>
-<section id="draft-support" class="slide">
-<p><img src="images/support-by-day.png" alt=""></p>
-</section>
-<section id="draft-tip-code" class="slide" data-background="images/code.jpeg">
-<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 50px;">
+<section id="halving" class="slide" data-background="images/halving.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
 
-<h2>Tip: Version Tests</h2><blockquote>
-<p>&quot;treat your tests as any other code&quot;</p>
-</blockquote>
+<p>&quot;Halve and halve again&quot;</p><aside class="notes"><p>Take a bracketing approach to problem solving. Instead of testing the whole system focus on a unit. You&#39;re solving a simulataneous equation, the less variables the easier it will be.</p></aside>
 </section>
-<section id="draft-upload-test-files" class="slide">
-<p><img src="images/upload-test-files.png" alt=""></p>
+<section id="small-target-change" class="slide" data-background="images/targeted.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
+
+<p>&quot;Small targeted changes&quot;</p><aside class="notes"><p>Since you can&#39;t predict what&#39;s going to happen you need great monitoring and strict change control.</p></aside>
 </section>
+<section id="moving-bottlenecks" class="slide" data-background="images/bottlenecks.jpeg">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
+
+<p>&quot;Moving not removing bottlnecks&quot;</p><aside class="notes"><p>Difficult to know what the next bottleneck is before you remove the current bottleneck.</p></aside>
+</section>
+<section id="scalability-curves-amdahl" class="slide" data-background="images/chart-4.png">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
+
+<p>&quot;Scalability Curves&quot;</p>
+</section>
+<section id="scalability-curves-usl" class="slide" data-background="images/chart-7.png">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
+
+<p>&quot;Scalability Curves&quot;</p>
+</section>
+<section id="scalability-curves-sine" class="slide" data-background="images/chart-3.png">
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
+
+<p>&quot;Scalability Curves&quot;</p>
 </section></div>
     </div>
 

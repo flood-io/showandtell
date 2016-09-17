@@ -1,4 +1,4 @@
-## Demo Code
+## Build (Code!)
 
 https://github.com/flood-io/loadtest
 
@@ -19,17 +19,11 @@ https://github.com/flood-io/loadtest
 ├── terraform
 │   ├── api
 │   │   ├── main.tf
-│   │   ├── terraform.tfstate
-│   │   └── terraform.tfstate.backup
 │   ├── asg
 │   │   ├── cloudconfig.yml
 │   │   ├── main.tf
-│   │   ├── terraform.tfstate
-│   │   └── terraform.tfstate.backup
 │   └── elb
 │       ├── main.tf
-│       ├── terraform.tfstate
-│       └── terraform.tfstate.backup
 ├── terraform.tfvars
 └── tests
     └── load.rb

@@ -1,1 +1,0 @@
-![](images/select-grids.png)

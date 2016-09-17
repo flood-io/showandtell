@@ -1,1 +1,0 @@
-![](images/chart-2.png)

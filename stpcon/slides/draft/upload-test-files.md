@@ -1,1 +1,0 @@
-![](images/upload-test-files.png)
