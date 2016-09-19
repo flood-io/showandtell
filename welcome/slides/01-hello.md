@@ -2,6 +2,8 @@ $background:images/wave-large.jpg$
 
 ![](images/flood-icon-white.png)
 
-[Intro to Flood IO](flood-io.github.io/showandtell/roadtrip/deck)
+<div style="border-radius: 10px;background-color: rgba(0, 0, 0, 0.7); color: #fff; padding: 50px;">
 
-[STPCON Fall 2016](flood-io.github.io/showandtell/roadtrip/stpcon)
+[Intro to Flood IO](https://flood-io.github.io/showandtell/roadtrip/deck)
+
+[STPCON Fall 2016](https://flood-io.github.io/showandtell/roadtrip/stpcon)
