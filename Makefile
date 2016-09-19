@@ -2,7 +2,7 @@ slides=stpcon
 export slides
 
 build:
-	prez ${slides} ./ --title="Flood IO" --author="Flood IO" --description="Distributed load testing with Flood IO" --theme=league
+	prez ${slides} ./${slides}/deck --title="Flood IO" --author="Flood IO" --description="Distributed load testing with Flood IO" --theme=league
 
 local: build
 	open index.html
