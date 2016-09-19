@@ -2,4 +2,4 @@
 
 "They don't exist"
 
-![](images/poisson.jpg)
+![](../../images/poisson.jpg)

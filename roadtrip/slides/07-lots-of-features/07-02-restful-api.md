@@ -4,4 +4,4 @@
 
 Our customers build their own dashboards and continuous integration pipelines from our simple to use API.
 
-![](images/restful-api.png)
+![](../../images/restful-api.png)

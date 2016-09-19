@@ -2,4 +2,4 @@
 
 > Analyze your floods in real time and share with your colleagues.
 
-![](images/monitor-floods.gif)
+![](../../images/monitor-floods.gif)

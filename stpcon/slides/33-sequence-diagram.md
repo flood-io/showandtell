@@ -1,1 +1,1 @@
-$background:images/sequence_diagram.jpg$
+$background:../../images/sequence_diagram.jpg$

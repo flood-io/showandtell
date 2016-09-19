@@ -2,4 +2,4 @@
 
 Time
 
-![](images/saves-time.png)
+![](../../images/saves-time.png)

@@ -1,1 +1,1 @@
-$background:images/support-users.png$
+$background:../../images/support-users.png$

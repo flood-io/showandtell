@@ -1,1 +1,1 @@
-![](images/measure-model-decide-build.png)
+![](../../images/measure-model-decide-build.png)

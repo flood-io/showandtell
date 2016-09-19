@@ -1,1 +1,1 @@
-$background:images/screaming_flood_io.jpg$
+$background:../../images/screaming_flood_io.jpg$

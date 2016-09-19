@@ -1,3 +1,3 @@
-$background:images/wave-large.jpg$
+$background:../../images/wave-large.jpg$
 
-![](images/flood-icon-white.png)
+![](../../images/flood-icon-white.png)

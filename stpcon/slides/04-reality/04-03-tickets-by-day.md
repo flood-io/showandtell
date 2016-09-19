@@ -1,1 +1,1 @@
-![](images/support-by-day.png)
+![](../../images/support-by-day.png)

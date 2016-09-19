@@ -1,3 +1,3 @@
 ## Charles Proxy
 
-![](images/charles.png)
+![](../../images/charles.png)

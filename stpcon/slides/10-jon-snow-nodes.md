@@ -1,3 +1,3 @@
-$background:images/jon-snow.gif$
+$background:../../images/jon-snow.gif$
 
-![](images/load-test-tools.png)
+![](../../images/load-test-tools.png)

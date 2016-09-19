@@ -1,3 +1,3 @@
-$background:images/jmeter-xml.png$
+$background:../../images/jmeter-xml.png$
 
 # 🙀

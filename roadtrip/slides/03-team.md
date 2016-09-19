@@ -1,4 +1,4 @@
-$background:images/cloud.png$
+$background:../../images/cloud.png$
 
 ## Runs on the cloud
 

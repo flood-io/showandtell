@@ -1,1 +1,1 @@
-$background:images/one-million-dollars.gif$
+$background:../../images/one-million-dollars.gif$
