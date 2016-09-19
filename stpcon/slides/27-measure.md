@@ -8,4 +8,4 @@ $background:images/measure.jpeg$
 - Concurrency
 - Throughput
 - Errors
-- Infrastructure
+- Infrastructure / Application
