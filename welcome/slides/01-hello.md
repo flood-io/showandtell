@@ -6,4 +6,4 @@ $background:images/wave-large.jpg$
 
 [Intro to Flood IO](https://flood-io.github.io/showandtell/roadtrip/deck)
 
-[STPCON Fall 2016](https://flood-io.github.io/showandtell/roadtrip/stpcon)
+[STPCON Fall 2016](https://flood-io.github.io/showandtell/stpcon/deck)
