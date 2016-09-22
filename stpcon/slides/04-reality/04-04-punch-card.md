@@ -1,0 +1,1 @@
+![](../../images/punch-card.png)
